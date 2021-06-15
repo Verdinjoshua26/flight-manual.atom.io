@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gulp-connect > tiny-lr > body-parser > debug:
+        patched: '2021-06-15T19:36:46.677Z'
+  'npm:ms:20170412':
+    - gulp-connect > tiny-lr > body-parser > debug > ms:
+        patched: '2021-06-15T19:36:46.677Z'
